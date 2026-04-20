@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hola-juan
+  labels:
+    app: hola-juan
+spec:
+  type: ClusterIP
+  selector:
+    app: hola-juan
+  ports:
+    - name: http
+      port: 80
+      targetPort: 4000
