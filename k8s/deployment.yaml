@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hola-juan
-          image: hola-juan:latest
+          image: docker.io/jcastro14/hola-juan:1.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 4000
