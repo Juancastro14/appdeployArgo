@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/TU_USUARIO/TU_REPO.git
+    repoURL: https://github.com/Juancastro14/appdeployArgo.git
     targetRevision: main
     path: k8s
   destination:
